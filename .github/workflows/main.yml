@@ -81,8 +81,4 @@ jobs:
       - name: Anti-Shutdown Loop (6 Hours Max)
         run: |
           $i = 0
-          while ($i -lt 360) {
-            $i++
-            Write-Host "Alive: $i minutes running..."
-            Start-Sleep 60
-          }
+          while ($i -lt 360
